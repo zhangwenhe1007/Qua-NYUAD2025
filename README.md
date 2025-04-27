@@ -11,6 +11,10 @@
 ## Objective
 The project aims to optimize the process of distributing AI training jobs across datacenter clusters consisting of CPUs, GPUs, and memory, by using quantum optimization techniques. This approach seeks to reduce AI training energy inefficiencies and increase accessibility to trainable models.
 
+<center>
+<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/workflow.png">
+</center>
+
 ### Data Collection
 We utilized a trace dataset for GPU-disaggregated serving of Deep Learning Recommendation Models (DLRMs) from Alibaba Cloud. The dataset captures operational characteristics of 156 inference services, comprising a total of 23,871 inference instances.
 
@@ -28,7 +32,7 @@ Link to dataset github: <a href="https://github.com/alibaba/clusterdata/blob/mas
       - Repeated submissions of jobs from the same user will decrease the priority of jobs, such as to ensure accessibility of datacenter resources to all users.
 
 <center>
-<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/logo.png">
+<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/setup.png">
 </center>
 
 ## Results
