@@ -43,7 +43,11 @@ Results show that the quantum optimization technique outperforms the classical a
 We ran the the algorithms on different number of machines from 10 to 100, show below.
 
 <center>
-<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/logo.png">
+<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/tasknum.png">
+</center>
+
+<center>
+<img src="https://github.com/zhangwenhe1007/Qua-NYUAD2025/blob/main/images/uniquetasks.png">
 </center>
 
 
