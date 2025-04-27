@@ -1,0 +1,17 @@
+from classical_model import greedy_scheduler
+
+# example run
+
+if __name__ == "__main__":
+    csv_file_path = "filtered_DLRM_trace.csv"  # Replace with your actual CSV path
+
+    # Run the scheduler
+    summary, total = greedy_scheduler(csv_file_path, num_machines=30)
+
+    print(f"\nTotal tasks scheduled: {total}\n")
+    for machine in summary:
+        print(f"Machine: {machine['machine_id']}, Jobs: {machine['num_jobs']}, "
+              f"Remaining CPU: {machine['remaining_cpu']}, "
+              f"Remaining GPU: {machine['remaining_gpu']}, "
+              f"Remaining Memory: {machine['remaining_memory']}, "
+              f"Total Runtime: {machine['total_runtime']}")
